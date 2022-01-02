@@ -5,7 +5,7 @@ class Valida_CPF:
     def __init__(self, cpf):
         self.cpf = cpf
 
-    def digito_CPF(self):
+    def valida(self):
         
         #-> Remove tudo que não for entre 0-9
         self.cpf = re.sub(r'[^0-9]', '', self.cpf)
@@ -59,7 +59,7 @@ class Valida_CPF:
 
 cpf = Valida_CPF("67548523726")
 
-cpf.digito_CPF()
+cpf.valida()
         
 
 
