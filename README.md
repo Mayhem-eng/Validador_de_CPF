@@ -1,2 +1,4 @@
-# V-liddador_CPF
-Válidador de CPF utilizando classes.
+# Validador de CPF
+
+Projeto feito utilizando Python
+
